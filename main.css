@@ -11,8 +11,7 @@
 	border-radius: 20px;
 	padding: 20px;
 }
-img {  
-	-webkit -filter: blur(1px);
+img {
 	height:300px;
 	width:300px;
 	float:left;
