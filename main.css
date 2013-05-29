@@ -1,18 +1,27 @@
 #title {
 	text-align: center;
+	color: #DC143C;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	font-size: 80px;
 }
 .person {
 	overflow: auto;
+	margin: 40px;
+	background-color:rgba(0, 0, 0, 0.85);
+	border-radius: 20px;
+	padding: 20px;
 }
 img {  
 
 	display: block;
-    -webkit -filter: blur(1px);
-    height:300px;
-    width:300px;
-    float:left;
-    border: 3px solid;
+
+	-webkit -filter: blur(1px);
+	height:300px;
+	width:300px;
+	float:left;
+	border: 3px solid white;
 	border-radius: 20px;
+	margin-right: 20px;
 }
 
 .label {
@@ -65,5 +74,13 @@ a {
 	width:350px;
 }
 
+.intro p{
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	color: #DC143C;
+	font-size: 22px;
+}
 
+body {
+	background: url('background.jpg');
+}
 
