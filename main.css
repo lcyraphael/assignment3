@@ -1,6 +1,14 @@
 #title {
 	text-align: center;
 }
+.person {
+	overflow: auto;
+}
 img {  
-      -webkit-filter: blur(50px);  
-} 
+    -webkit -filter: blur(1px);
+    height:300px;
+    width:300px;
+    float:left;
+    border: 3px solid;
+	border-radius: 20px;
+}
