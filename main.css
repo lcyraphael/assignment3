@@ -1,9 +1,14 @@
-#title {
+.title {
 	text-align: center;
 	color: #DC143C;
 	font-family: Impact, Arial, Helvetica, sans-serif;
+}
+#clique {
 	font-size: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+}
+#links {
+	word-spacing:40px;
 }
 .person {
 	overflow: auto;
@@ -11,6 +16,23 @@
 	background-color:rgba(0, 0, 0, 0.85);
 	border-radius: 20px;
 	padding: 20px;
+}
+a:link {
+	color: #DC143C;
+	font-size: 60px;
+	text-decoration:none;
+}
+a:visited {
+	color: #DC143C;
+	text-decoration:none;
+}
+a:hover {
+	color: #DC143C;
+	text-decoration:underline;
+}
+a:active {
+	color: #DC143C;
+	text-decoration:underline;
 }
 img {  
 	height:300px;
