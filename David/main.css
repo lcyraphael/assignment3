@@ -1,0 +1,98 @@
+/*This is the frame of the content*/
+
+.frame {
+	background-color:rgba(0, 0, 0, 0.5);
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+/*Header*/
+
+@font-face {
+	font-family: 'Blanch';
+	src: url('BLANCH_CONDENSED.eot') format('eot'), url('BLANCH_CONDENSED.woff') format('woff'), url('BLANCH_CONDENSED.ttf') format('truetype');
+}
+.title {
+	text-align:center;
+	font-family: Blanch, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#head {
+	font-size:120px;
+	letter-spacing: 0.3em;
+}
+#link {
+	font-size:75px;
+}
+
+/*This comes below the header*/
+
+.bod {
+	overflow: auto;
+	padding: 65px;
+}
+
+.pic {
+	float: left;
+}
+.text {
+	background-color:rgba(51, 204, 102, 0.7);
+	color:white;
+	float:right;
+	left:550;
+	font-family: Verdana, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size:24px;
+	width: 50%;
+	padding: 15px;
+}
+
+#slide {
+	margin-right: auto;
+	margin-left: auto;
+	width:450;
+	height:450;
+}
+.player {
+	margin-top: 40px;
+	margin-right: 17px;
+	border-radius: 20px;
+}
+#info {
+	text-align: center;
+}
+
+/*These are big changes to the tags*/
+
+a:link {
+	color:white;
+	text-decoration:none;}
+a:visited {
+	color:white;
+	text-decoration:none;
+}
+a:hover {
+	color:white;
+	text-decoration:underline;
+}
+a:active {
+	color:white;
+	text-decoration:underline;
+}
+
+body {
+	background: url('background.png') no-repeat center center fixed;
+	background-size:cover;
+}
+div {
+	border-radius: 20px;
+}
+img {
+	background: #e8eae9;
+	border: 1px solid #c6c9cc;
+	border-radius: 20px;
+	height: 450px;
+	width: 450px;
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript">
+		var image1 = new Image()
+		image1.src = "me.jpg"
+		var image2 = new Image()
+		image2.src = "music.jpg"
+		var image3 = new Image()
+		image3.src = "facts.jpg"
+		var image4 = new Image()
+		image4.src = "contact.jpg"		
+	</script>
+	<title>Hi! I'm David</title>
+</head>
+<body>
+	<div class="frame">
+		<div class = "title" id="head">
+			<a href="home.html">HI! I'M DAVID</a>
+		</div>
+		 <nav class="title" id="link">
+		    <a href="about.html">About</a> <span>|</span>
+		    <a href="music.html">Music</a> <span>|</span>
+		    <a href="facts.html">Facts</a> <span>|</span>
+		    <a href="contact.html">Contact</a>
+		</nav>
+
+		<!-- This is the slideshow! -->
+
+		<div class="bod" id="slide"><img src="me.jpg" width="450" height="450" name="slide"></div>
+		<script type="text/javascript">
+        	var step=1;
+        	function slideit()
+        	{
+	            document.images.slide.src = eval("image"+step+".src");
+	            if(step<4)
+	                step++;
+	            else
+	                step=1;
+	            setTimeout("slideit()",2750);
+			}
+			slideit();
+		</script>
+
+	</div>
+</body>
+</html>
