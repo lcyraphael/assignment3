@@ -1,14 +1,22 @@
 #title {
 	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 80px;
 }
 .person {
 	overflow: auto;
+	margin: 40px;
 }
 img {  
-    -webkit -filter: blur(1px);
-    height:300px;
-    width:300px;
-    float:left;
-    border: 3px solid;
+	-webkit -filter: blur(1px);
+	height:300px;
+	width:300px;
+	float:left;
+	border: 3px solid;
 	border-radius: 20px;
+	margin: 20px;
+}
+p {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 22px;
 }
