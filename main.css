@@ -1,8 +1,14 @@
-#title {
+.title {
 	text-align: center;
 	color: #DC143C;
 	font-family: Impact, Arial, Helvetica, sans-serif;
+}
+#clique {
 	font-size: 80px;
+	margin-bottom: 0px;
+}
+#links {
+	word-spacing:40px;
 }
 .person {
 	overflow: auto;
@@ -11,10 +17,25 @@
 	border-radius: 20px;
 	padding: 20px;
 }
+a:link {
+	color: #DC143C;
+	font-size: 60px;
+	text-decoration:none;
+}
+a:visited {
+	color: #DC143C;
+	text-decoration:none;
+}
+a:hover {
+	color: #DC143C;
+	text-decoration:underline;
+}
+a:active {
+	color: #DC143C;
+	text-decoration:underline;
+}
 img {  
-
 	display: block;
-
 	-webkit -filter: blur(1px);
 	height:300px;
 	width:300px;
@@ -75,6 +96,7 @@ a {
 }
 
 .intro p{
+	margin-top: 0px;
 	font-family: Impact, Arial, Helvetica, sans-serif;
 	color: #DC143C;
 	font-size: 22px;
