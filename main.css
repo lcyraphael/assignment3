@@ -1,103 +1,7 @@
-.title {
-	text-align: center;
-	color: #DC143C;
-	font-family: Impact, Arial, Helvetica, sans-serif;
+body {
+	background: url('background.jpg');
 }
-#clique {
-	font-size: 80px;
-	margin-bottom: 0px;
-}
-#links {
-	word-spacing:40px;
-}
-.person {
-	overflow: auto;
-	margin: 40px;
-	background-color:rgba(0, 0, 0, 0.85);
-	border-radius: 20px;
-	padding: 20px;
-}
-
-.title a:link {
-	color: #DC143C;
-	font-size: 60px;
-	text-decoration:none;
-}
-
-.title a:visited {
-	color: #DC143C;
-	text-decoration:none;
-}
-
-.title a:hover {
-	color: #DC143C;
-	text-decoration:underline;
-}
-
-.title a:active {
-	color: #DC143C;
-	text-decoration:underline;
-}
-
-img {  
-	display: block;
-	-webkit -filter: blur(1px);
-	height:100%;
-	width:100%;
-	float:left;
-	border: 3px solid white;
-	border-radius: 20px;
-	margin-right: 20px;
-}
-
-.label {
-   /*Position*/
-  display: block;
-  vertical-align: top;  
-  overflow: hidden;
-  position: relative;
-  margin: 20px;
-}
-
-.label p {
-  /*Position*/
-  position: absolute;
-  padding: 10px;
-  margin-top: -2px;
-  margin-left: 185px;
-  
-  top: 0%;
-  left: 150%;
-
-  border: 3px transparent;
-  border-radius: 20px;
-
-  /*Skin*/
-  background: rgba(112,143,184,0.5);
-  color: #f4f6de;
-  font: 20px courier; 
-  text-align: center;
-     
-  /*Animation*/
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-}
-
-.label:hover p {
-   left: 0%;
-}
-
-a {
-	color: white;
-}
-
-.box {
-	width:500px;
-}
-
+	
 .intro p{
 	margin-top: 0px;
 	font-family: Impact, Arial, Helvetica, sans-serif;
@@ -105,7 +9,120 @@ a {
 	font-size: 22px;
 }
 
-body {
-	background: url('background.jpg');
+#links {word-spacing: 60px;}
+
+.title {
+	text-align: center;
+	color: #222;
+	font-family: 'Radley';
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+.subtitle {
+	font-family: 'Sancreek';
+	text-align: left;
+	margin: 50px 0 0 300px;
+	font-weight: bold;
 }
 
+.subtitle a:link {
+	color: #222;
+	font-size: 40px;
+	text-decoration:none;
+}
+.subtitle a:visited {
+	color: #222;
+	text-decoration:none;
+}
+.subtitle a:hover {
+	color: #222;
+	text-decoration:underline;
+}
+.subtitle a:active {
+	color: #222;
+	text-decoration:underline;
+}
+
+.label {
+	text-align: left;
+	margin-left: 290px;
+}
+
+img {  
+	display: inline-block;
+	-webkit -filter: blur(1px);
+	height:250px;
+	float:left;
+	border: 3px solid white;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+	
+.person {
+	display: inline-block;
+	overflow: auto;
+	margin: 20px 0 0 20px;
+	background-color:rgba(0, 0, 0, 0.85);
+	border-radius: 20px;
+	padding: 20px;
+	width: 426px;
+	color: white;
+}
+.person p {
+  /*Position*/
+
+  position: relative;
+  display: inline-block;
+  margin: 3px 0 0 0;
+  width: 150px;
+  height: 193px;
+  left: -20;
+
+  border: 3px transparent;
+  border-radius: 0 17.5px 0 18.5px;
+
+  text-align: right;
+  font: 30px courier;
+  font-weight: bolder;
+  text-decoration: underline;
+
+  /*Skin*/
+  opacity: 0;
+      
+  /*Animation*/
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.person:hover p {
+   left: -173px;
+   opacity: 0.5;
+}
+.person a {margin: 0 8px 0 0;}
+.person a:hover {font-size: 35px;}
+#dave a {color: #05377A;}
+#dave:hover p {
+	background-color: #708FB8;
+	color: #05377A;
+}
+
+#raph a {color: #7D0000;}
+#raph:hover p {
+	background-color: #DE0B0B;
+	color: #960C0C;	
+
+}
+#dim a {color: #045918}
+#dim:hover p {
+	background-color: #0AA617;
+	color: #045918;
+}
+
+.text {
+	text-align: right;
+	margin-top: -165px;
+	float: right;
+	width: 150px;
+}

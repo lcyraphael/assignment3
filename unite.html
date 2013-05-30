@@ -1,70 +1,80 @@
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Choose a Site!</title>
-</head>
-<body>
-	<div class="title" id="clique"><strong>AIN'T NOBODY FUCKIN' WITH MY CLIQUE</strong></div>
-	<nav class="title" id="links">
-		<a href="#raph">RAPH</a>
-		<a href="#dim">DIMITRI</a>
-		<a href="#dave">DAVID</a>
-	</nav>
-	<div>
-		
-			<div class="label">
-				<div class="person" id="raph">
-					<img src="raph.jpg">
-					<p><a href = "home.html">Home</a></p>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Radley">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sancreek">
+		<title>Welcome! Meet the Clique</title>
+		<link rel="icon" type="image/png" href="http://d6-support.yale.edu/sites/default/files/favicon.ico">
+
+	</head>
+	<body>
+		<header class="title" id="clique"><strong>AIN'T NOBODY FUCKIN' WITH MY CLIQUE</strong></header>
+		<nav id="links">
+			<div class="subtitle">
+				<a href="#raph">RAPH</a>
+				<a href="#dim">DIMITRI</a>
+				<a href="#dave">DAVID</a>
+			</div>
+		</nav>
+		<div>	
+			<div class="box">
+				<div class="label" id = "top">
+					<div class="person" id="raph">
+						<img src="raph.jpg">
+						<p>
+							<a href = "raph/homepage.html">Home</a>
+							<a href = "raph/about.html">About</a>
+							<a href = "raph/work.html">Work</a>
+							<a href = "raph/contact.html">Contact</a>
+						</p>
+						<div class = "text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="box" id = "middle">
+				<div class="label">
+					<div class="person" id="dim">
+						<img src="dim.jpg">
 
-
-		<div class="intro">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-			</p>
-		</div>
-
-		<div class="box">
-			<div class="label">
-				<div class="person" id="dim">
-					<img src="dim.jpg">
-					<div class="intro">
 						<p>
-							<a href = "home.html">Home</a>
+							<a href = "Dimitri/home.html">Home</a>
+							<a href = "Dimtri/sports.html">Sports</a>
+							<a href = "Dimitri/food.html">Food</a>
+							<a href = "Dimitri/music.html">Music</a>
+							<a href = "Dimitri/movies.html">Movies</a>
 						</p>
+						<div class = "text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box" id = "bottom">
+				<div class="label">	
+					<div class="person" id="dave">
+						<img src="dave.jpg">
+						<p>
+							<a href = "David/home.html">Home</a>
+							<a href = "David/about.html">About</a>
+							<a href = "David/music.html">Music</a>
+							<a href = "David/facts.html">Facts</a>
+							<a href = "David/contact.html">Contact</a>
+						</p>
+						<div class = "text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div class="intro">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-			</p>
-		</div>
-
-		<div class="box">
-			<div class="label">	
-				<div class="person" id="dave">
-					<img src="dave.jpg">
-					<div class="intro">
-						<p>
-							<a href = "home.html">Home</a>
-						</p>
-					</div>
-				</div>
-			</div>
-
-		<div class="intro">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-			</p>
-		</div>
-
-		</div>
-
-	</div>
-</body>
+		<script type="text/javascript">
+			function move_box(String id) {
+				var top = document.getElementById("top");
+				var mid = document.getElementById("middle");
+				var bottom = document.getElementById("bottom");
+			}
+		</script>
+	</body>
 </html>
