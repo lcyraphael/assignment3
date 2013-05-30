@@ -17,28 +17,33 @@
 	border-radius: 20px;
 	padding: 20px;
 }
-a:link {
+
+.title a:link {
 	color: #DC143C;
 	font-size: 60px;
 	text-decoration:none;
 }
-a:visited {
+
+.title a:visited {
 	color: #DC143C;
 	text-decoration:none;
 }
-a:hover {
+
+.title a:hover {
 	color: #DC143C;
 	text-decoration:underline;
 }
-a:active {
+
+.title a:active {
 	color: #DC143C;
 	text-decoration:underline;
 }
+
 img {  
 	display: block;
 	-webkit -filter: blur(1px);
-	height:300px;
-	width:300px;
+	height:100%;
+	width:100%;
 	float:left;
 	border: 3px solid white;
 	border-radius: 20px;
@@ -60,8 +65,6 @@ img {
   padding: 10px;
   margin-top: -2px;
   margin-left: 185px;
-  width: 100px;
-  height: 290px;
   
   top: 0%;
   left: 150%;
@@ -92,7 +95,7 @@ a {
 }
 
 .box {
-	width:350px;
+	width:500px;
 }
 
 .intro p{
