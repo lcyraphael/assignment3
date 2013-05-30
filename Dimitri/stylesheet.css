@@ -2,20 +2,122 @@ body {
 	top: 102px;
 	height: auto;
 	width: auto;
-	background: url('General%20Photos/body.jpg');
-
+	background: url('General%20Photos/body.jpg'); 
+	font: 12px 'Trebuchet MS';
 }
 
-.movies {
-	height: 2500px;
+h2 {
+	color: #236B8E;
+	font-size: 28px;
+}h3 {
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 18px;
 }
 
-.sports {
-	height: 1434px;
+.sports {height: 1270px;}
+.intro p {
+	width: 738px;
+	min-height: 70px;
+}#bat_hat {
+	display: inline-block;
+	margin: 8px 5px 0 0;
+	float: right;
+	height: 160px;
+}.basketball {
+	margin: 4px -3px 0px 2.5px;
+	height: 168.5px;
+}.football {
+	margin: 4px -4px 0px 3px;
+	height: 116.5px;
+}.strip {background-color: #222;}
+.strip img {
+	border: 1.5px solid #ADADAD;
+	padding: 2px;
 }
 
-.music {
-	height: 1750px;
+.food{height: 1945px;}
+.food_line {
+	text-align: center;
+}
+#chef {
+	margin: 6px;
+	float: right;
+	height: 210px;
+}#eat {
+	float: left;
+	height: 180px;
+	margin: 4px;
+}#durian {
+	height: 140px;
+	margin-left: 50px;
+}
+#breakfast {height: 190px;}
+#burger {height: 170px;}
+#sushi {height: 180px;}
+.pizza {height: 220px;}
+#dessert {height: 210px;}
+
+.music {height: 2039px;}
+.music h3 {
+	text-indent: 35px;
+	margin-bottom: 0;
+}.empire {display: inline-block;}
+.empire figure {
+	float: left; 
+	text-align: center;
+	margin: 12px 28px 0 12px;
+}.empire img {
+	text-align: left;	
+	height: 213px;
+}.empire audio {
+	display: inline-block;
+	margin: -25px 76px 0px 55px;
+}.empire p {
+	width: 417px;
+	display: inline-block;
+	margin-right: 12px;
+}.un995 img{height: 310px;} 
+.un995 {
+	display: inline-block;
+	min-height: 340px;
+}.un995 p {
+	display: inline-block;
+	margin: 12px 0 0 12px;
+	width: 415px;
+}.un995 figure {
+	float: right;
+	margin: 12px 12px 0 0;
+	text-align: center;
+}#un995 {
+	display: inline-block;	
+	vertical-align: top;
+	margin: -45px 0 0 525px;
+}
+.rap {clear: both;}
+.rap img {
+	height: 220px;
+	margin: 5px -2px -3px 5px;
+	padding: 6px 8px 6px 6px;
+}.fun {
+	height: 128.75px;
+	margin: 5px -2px 0 3px;
+}
+
+.movies {height: 2249px;}
+.buddy_cop {
+	margin: 0px 65px;
+	height: 200px;
+}.martial {
+	margin: 0px 55px;
+	height: 230px;
+}.epic {height: 210px;}
+.good  {
+	height: 213px;
+	margin: 0px 3px;
+}.movies img {
+	background: #DDD;
+	border: 2px solid #323232;
 }
 
 header {
@@ -39,13 +141,14 @@ aside {
 	top: 113px;
 	bottom: 0px;
 	width: 158px;
-	margin: 0px 0px 0px -8px;
+	margin: 7px 0px 0px -8px;
 	text-align: center;
 }
 
 div {
-	border: 1px solid orange;
 	width: 880px;
+	margin: 2px 0;
+	opacity: 1;
 }
 
 nav {
@@ -62,7 +165,6 @@ nav ul {
 
 a {
 	display: block;
-	/*border: 1px solid white;*/
 	border-radius: 10px;
 	padding: 4px 20px;
 	margin: 5px;
@@ -79,144 +181,28 @@ a:hover {
 	background: radial-gradient(#A8A8A8, #E6E8FA);
 	box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.4);
 	border: 2px solid black;
+	margin-bottom: -4px;
 	color: black;
 }
 
 p {
 	width: 870px;
-	border: 1px solid green;
+	margin-left: 4px;
 }
 
 img {
 	padding: 4px;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 }
 
 .page-content {
+	padding: 4px 0 4px 18px;
 	position: relative;
-	border: 1px solid red;
 	top: 30px;
 	left: 152px;
-	padding-left: 3px;
 	height: auto;
 	width: 890px;
 	background: #f7f6ef;
-}
-
-.basketball {
-	margin: 4px -2.5px 0px 4px;
-	height: 161px;
-}
-
-.football {
-	margin: 4px -2px 0px 4px;
-	height: 111px;
-}
-
-
-.buddy_cop {
-	margin: 0px 65px;
-	height: 200px;
-}
-
-.martial {
-	margin: 0px 55px;
-	height: 230px;
-}
-
-.epic {
-	height: 210px;
-}
-
-.good  {
-	height: 213px;
-	margin: 0px 3px;
-}
-
-
-.hiphop {
-	height: 220px;
-	margin: 5px -2px -3px 5px;
-	padding: 6px 8px 6px 6px;
-}
-
-.fun {
-	height: 134px;
-}
-
-
-#bat_hat {
-	display: inline-block;
-	margin: 8px 5px 0 0;
-	float: right;
-	height: 170px;
-}
-
-.empire {
-	display: inline-block;
-	font: 12px 'Trebuchet MS';
-}
-.empire figure {
-	float: left;
-	margin-left: 10px;
-}
-.empire img {
-	text-align: left;	
-	height: 213px;
-}
-.empire audio {
-	display: inline-block;
-	text-align: right;
-	margin: -25px 88px 0px 55px;
-}
-.empire p {
-	width: 417px;
-	display: inline-block;
-	text-align: left;
-	margin-right: 10px;
-}
-
-.un995{
-
-}
-.un995 figure {
-	font-size: 12px;
-}
-#un995 {
-	height: 265px; 
-}
-
-
-
-
-#chef {
-	height: 210px;
-}
-
-#eat {
-	height: 180px;
-}
-
-#durian {
-	height: 190px;
-}
-
-#breakfast {
-	height: 190px;
-}
-
-#burger {
-	height: 170px;
-}
-
-#sushi {
-	height: 180px;
-}
-
-.pizza {
-	height: 220px;
-}
-
-#dessert {
-	height: 210px;
+	opacity: 1;
+	border-radius: 8px;
 }
